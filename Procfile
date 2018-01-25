@@ -1,1 +1,2 @@
-web: ./mvnw spring-boot:run -DskipTests -Drun.jvmArguments="-Dserver.port=$PORT"
+web: ./mvnw package spring-boot:repackage
+web: java -jar target/*.jar server.port=$PORT
