@@ -1,1 +1,1 @@
-web: ./mvnw spring-boot:run -Drun.arguments="--server.port=$PORT"
+web: ./mvnw spring-boot:run -Drun.jvmArguments="--server.port=$PORT"
